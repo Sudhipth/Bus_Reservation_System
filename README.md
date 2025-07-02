@@ -95,24 +95,25 @@ Enter bus no:
 Enter date dd-mm-yyyy
 11-10-2025
 Your booking is confirmed
-▶️ How to Run
+
+##▶️ How to Run
 1. 📥 Clone the Repository
 bash
 Copy
 Edit
 git clone https://github.com/Sudhipth/Bus_Reservation_System.git
 cd Bus_Reservation_System
-2. 🛠️ Setup MySQL
+##2. 🛠️ Setup MySQL
 Create a database jdbcdemo
 
 Create the bus and booking tables as shown above
 
-3. 🚀 Run the Application
+##3. 🚀 Run the Application
 Open the project in Eclipse
 
 Run Bus_Main.java
 
-📬 Contact
+##📬 Contact
 If you have any queries related to this project, feel free to reach out:
 
-📧 vjsudhipth@gmail.com
+##📧 vjsudhipth@gmail.com
