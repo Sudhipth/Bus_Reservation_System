@@ -4,12 +4,6 @@ A **Java + MySQL** based console application for booking bus tickets. The system
 
 ---
 
-## 📖 About the Project
-
-This is a simple console-based system built using **Core Java** and **MySQL** to simulate a basic bus ticket booking system. It interacts with the database to fetch bus details and record bookings. Designed with modular classes, it shows how Java handles **database connections, SQL queries, and date input**.
-
----
-
 ## 🔧 Technologies Used
 
 - 💻 Java (JDK 8+)
@@ -22,17 +16,16 @@ This is a simple console-based system built using **Core Java** and **MySQL** to
 
 ## 📂 Project Structure
 
-Bus_Reservation_System/
-├── Bus_Main.java # Main class to run the project
-├── DB_Connection.java # DB connection class
-├── Bus_table.java # Handles Bus table
-├── Booking.java # Takes user input
-├── Booking_table.java # Booking logic and DB access
-└── README.md # Project info
+```
+Bus_Reservation_System/tree/main/JDBC/src
 
-yaml
-Copy
-Edit
+├── Bus_Main.java         # Main class to run the project
+├── DB_Connection.java    # DB connection class
+├── Bus_table.java        # Handles Bus table
+├── Booking.java          # Takes user input
+└── Booking_table.java    # Booking logic and DB access
+
+```
 
 ---
 
@@ -52,8 +45,8 @@ Edit
 |-------------|--------------------------------------------------|
 | **Create**  | Insert a new booking into `booking` table        |
 | **Read**    | Display all buses and fetch booked count         |
-| **Update**  | (Extendable) Could be added to modify bookings   |
-| **Delete**  | (Extendable) Could be added to cancel a booking  |
+| **Update**  | (Extendable) Could be added to modify Name       |
+| **Delete**  | (Extendable) Could be added to cancel a Name     |
 
 ---
 
@@ -96,24 +89,33 @@ Enter date dd-mm-yyyy
 11-10-2025
 Your booking is confirmed
 
-##▶️ How to Run
-1. 📥 Clone the Repository
-bash
-Copy
-Edit
+```
+---
+## ▶️ How to Run
+
+### 📥 Clone the Repository
+
+```bash
 git clone https://github.com/Sudhipth/Bus_Reservation_System.git
 cd Bus_Reservation_System
-##2. 🛠️ Setup MySQL
-Create a database jdbcdemo
 
-Create the bus and booking tables as shown above
+```
+---
+## 🛠️ Setup MySQL
 
-##3. 🚀 Run the Application
-Open the project in Eclipse
+* Create a database named jdbcdemo
 
-Run Bus_Main.java
+* Add bus and booking tables as shown above
+---
+## 🚀 Run the Application
 
-##📬 Contact
-If you have any queries related to this project, feel free to reach out:
+* Open the project in Eclipse or any Java IDE
 
-##📧 vjsudhipth@gmail.com
+*  #### Run the Bus_Main.java file
+---
+## 📬 Contact
+
+* If you have any queries related to this project, feel free to reach out:
+```bash
+📧 vjsudhipth@gmail.com
+```
