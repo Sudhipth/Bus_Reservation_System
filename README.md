@@ -22,10 +22,13 @@ This is a simple console-based system built using **Core Java** and **MySQL** to
 
 ## 📂 Project Structure
 
+```
 Bus_Reservation_System/
-├── Bus_Main.java # Main class to run the project
-├── DB_Connection.java # DB connection class
-├── Bus_table.java # Handles Bus table
-├── Booking.java # Takes user input
-├── Booking_table.java # Booking logic and DB access
-└── README.md # Project info
+├── Bus_Main.java         # Main class to run the project
+├── DB_Connection.java    # DB connection class
+├── Bus_table.java        # Handles Bus table
+├── Booking.java          # Takes user input
+├── Booking_table.java    # Booking logic and DB access
+└── README.md             # Project info
+```
+
