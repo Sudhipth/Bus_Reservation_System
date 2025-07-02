@@ -16,13 +16,13 @@ A simple **Java + MySQL** console-based Bus Reservation System that allows users
 
 ## 📂 Project Structure
 
-Bus_Reservation_System/
-├── Bus_Main.java
-├── DB_Connection.java
-├── Bus_table.java
-├── Booking.java
-├── Booking_table.java
-└── README.md
+Bus_Reservation_System/ 
+├── Bus_Main.java 
+├── DB_Connection.java 
+├── Bus_table.java 
+├── Booking.java 
+├── Booking_table.java 
+└── README.md 
 
 
 ---
